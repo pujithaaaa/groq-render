@@ -1,4 +1,4 @@
 fastapi
-uvicorn # Ensure uvicorn is installed
+uvicorn
 httpx
 python-dotenv
