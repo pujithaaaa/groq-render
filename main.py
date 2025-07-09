@@ -32,7 +32,6 @@ async def summarize(data: SummaryRequest):
         f"The person's name is {data.name}.\n\n"
         "The input will contain *flat, field-wise labeled text* (e.g., **Go-Lives:**, **Feedback:**, **Achievements:**, etc.) describing this individual's accomplishments.\n\n"
         "Generate a professional summary that:\n"
-        "- Begins with the individual's name (e.g., '**Pujitha's Q2 Highlights:**')\n"
         "- Uses bullet points\n"
         "- Clearly labels each section using the field headers from the input (e.g., **Go-Lives:**)\n"
         "- Skips any sections that are empty or irrelevant\n"
